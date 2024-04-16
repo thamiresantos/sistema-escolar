@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Novo Usuário</title>
+    <link rel="stylesheet" href="estilos/padrao-cabecalho.css">
+    <link rel="stylesheet" href="estilos/padrao-formularios.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h2>Edu Station</h2>
+            <h1><a class="voltar" href="page-login.html">Direção Workstation</a></h1>
+        </div>
+    </header>
+
+    <div class="formularios">
+        <form action="#" method="post" autocomplete="off">
+            <Fieldset>
+                <legend>Cadastro Direção</legend>
+
+                <p>
+                    <label for="inome">Nome</label>
+                    <input type="text" name="nome" id="inome" required>
+                </p>
+
+                <p>
+                    <label for="icpf">CPF</label>
+                    <input type="number" name="cpf" id="icpf" required maxlength="14">
+                </p>
+
+                <p>
+                    <label for="idata">Data de Nascimento</label>
+                    <input type="date" name="nascimento" id="idata" required>
+                </p>
+
+                <p>
+                    <label for="iemail">Email</label>
+                    <input type="email" name="email" id="iemail" autocomplete="email" required>
+                </p>
+                
+                <p>
+                    <label for="isenha">Senha</label>
+                    <input type="password" name="senha" id="isenha">
+                </p>
+
+                <p>
+                    <label for="conf-senha">Confirmar Senha</label>
+                    <input type="password" name="confirmar senha" id="conf-senha">
+                </p>
+                <p><input type="submit" value="Criar Usuário" class="button"></p>
+            </Fieldset>
+        </form>
+    </div>
+</body>
+</html>

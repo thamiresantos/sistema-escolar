@@ -1,0 +1,68 @@
+
+/*-----SEÇÃO PESQUISAR----*/
+
+.container-pesquisar {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.itens-container-pesquisar {
+    font-size: 17px;
+    margin: 10px;
+}
+
+.container-pesquisar input {
+    height: 24px;
+    width: 310px;
+}
+
+.butao{
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    box-shadow: 2px 2px 0px black;
+    height: 24px;
+    width: 100px;
+}
+
+.butao:hover {
+    box-shadow: none;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+/*-----TABELA-----*/
+
+.container-tabela {
+    display: flex;
+    justify-content: center;
+}
+
+.tabela {
+    width: 55%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td {
+    border-right: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+td a {
+    padding: 3px;
+    color: blue;
+}
+
+.tabela-coluna-01{
+    text-align: left;
+}
+
+.tabela-linha-01{
+background-color: rgba(43, 40, 40, 0.301);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(128, 128, 128, 0.185);
+}

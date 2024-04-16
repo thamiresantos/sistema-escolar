@@ -1,0 +1,49 @@
+/* ESTILO TELA INICIAL*/
+.opcoes {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 7%;
+    
+}
+
+.opcao-itens {
+    background-color: white;
+    width: 80px;
+    padding: 30px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px black;
+    text-align: center;
+    margin: 0 -60px;
+    
+}
+
+.opcao-itens a {
+    text-decoration: none;
+    color: black;
+}
+
+#opcao-item-turma {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    margin: 50px;
+}
+
+#opcao-item-turma a {
+    text-decoration: none;
+    color: black;
+    width: 80px;
+    padding: 30px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px black;
+}
+
+#opcao-item-turma a:hover, .opcao-itens:hover, a:hover {
+    color: rgba(0, 0, 0, 0.63);
+    box-shadow: none;
+}
+

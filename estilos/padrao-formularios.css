@@ -1,0 +1,54 @@
+/* Estilo padrao das paginas com formulario */
+
+.formularios{
+    display: flex;
+    margin: 5em;
+    justify-content: center;
+}
+
+form {
+    width:500px
+}
+
+fieldset {
+    font-size: 16px;
+    padding: 12px;
+    border-color: rgba(0, 0, 0, 0.808);
+}
+
+p {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+input {
+    height: 22px;
+}
+
+#links{
+    text-align: right;
+    margin: 5px;
+    padding: 6px;   
+}
+
+#box-senha {
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.button {
+    background-color: white;
+    box-shadow: 2px 2px 0px black;
+    padding: 3px;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.116);
+    box-shadow: none;
+}
+
+
+
+

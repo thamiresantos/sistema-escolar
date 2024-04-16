@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Inicial</title>
+    <link rel="stylesheet" href="../estilos/padrao-cabecalho.css">
+    <link rel="stylesheet" href="../estilos/estilo-tela-inicial.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h2>Edu Station</h2>
+            <h1>Direção Workstation</h1>
+
+            <div class="menu-usuario" >
+                <div class="perfil" onclick="escondendoMenu()">
+                    <img src="../estilos/imagens/icon-usuario.svg.svg">
+                </div>
+                <div class="lista-menu">
+                    <ul>
+                        <li><a href="#">Alterar</a></li>
+                        <li><a href="../page-login.html">Exit</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="opcoes">
+        <div class="opcao-itens"><a href="paginaDirecao/listagem-diretores.html">Direção</a></div>
+        <div class="opcao-itens"><a href="paginaDocente/listagem-docentes.html">Docente</a></div>
+        <div class="opcao-itens"><a href="paginaAlunos/listagem-alunos.html">Aluno (a)</a></div>
+        <div class="opcao-itens"><a href="#">Disciplina</a></div>
+        <div id="opcao-item-turma"><a href="#">Turma</a></div>
+    </section>
+
+   <script src="../js/menu-usuario.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+/* Estilo página inicial de login */
+
+
+.formulario-login{
+    display: flex;
+    margin: 5em;
+    justify-content: center;
+}
+
+fieldset {
+    font-size: 16px;
+    padding: 20px;
+    border-color: rgba(0, 0, 0, 0.808);
+}
+
+p {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+input {
+    height: 22px;
+}
+
+#links{
+    text-align: right;
+    margin: 5px;
+    padding: 6px;   
+}
+
+.button {
+    background-color: white;
+    box-shadow: 2px 2px 0px black;
+    width: 70px;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.116);
+    box-shadow: none;
+}
+
+
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Docente</title>
+    <link rel="stylesheet" href="../../estilos/padrao-cabecalho.css">
+    <link rel="stylesheet" href="../../estilos/padrao-formularios.css">
+    <link rel="stylesheet" href="../../estilos/estilo-sub-titulo.css">
+    <script src="../../js/menu-usuario.js" defer></script>
+    <script src="../../js/gerandoSenha.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h2>Edu Station</h2>
+            <h1><a href="../paginaDocente/listagem-docentes.html" class="voltar">Direção Workstation</a></h1>
+
+            <div class="menu-usuario" >
+                <div class="perfil" onclick="escondendoMenu()">
+                    <img src="../../estilos/imagens/icon-usuario.svg.svg">
+                </div>
+                <div class="lista-menu">
+                    <ul>
+                        <li><a href="#">Alterar</a></li>
+                        <li><a href="../../page-login.html">Exit</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container-sub-titulo">
+        <h2 class="sub-titulo">Docente</h2>
+    </section>
+
+    <div class="formularios">
+        <form action="#" method="post" autocomplete="off">
+            <Fieldset>
+                <legend>Cadastro Docente</legend>
+
+                <p>
+                    <label for="inome">Nome</label>
+                    <input type="text" name="nome" id="inome" >
+                </p>
+
+                <p>
+                    <label for="icpf">CPF</label>
+                    <input type="number" name="cpf" id="icpf" maxlength=12>
+                </p>
+
+                <p>
+                    <label for="idata">Data de Nascimento</label>
+                    <input type="date" name="data" id="idata">
+                </p>
+
+                <p>
+                    <label for="iemail">Email</label>
+                    <input type="email" name="email" id="iemail" autocomplete="email">
+                </p>
+                
+                <div id="box-senha">
+                    <label>Senha temporária</label>
+                    <div id="area-senha">
+                        <a href="#" id="area">gerar senha</a>
+                        <div id="senha-nova"></div>
+                    </div>
+                </div>
+                <p><input type="submit" value="Criar Usuário" class="button"></p>
+            </Fieldset>
+        </form>
+    </div>
+</body>
+</html>

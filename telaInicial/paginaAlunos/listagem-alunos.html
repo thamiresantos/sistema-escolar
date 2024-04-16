@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Listagem Alunos</title>
+    <link rel="stylesheet" href="../../estilos/padrao-cabecalho.css">
+    <link rel="stylesheet" href="../../estilos/estilo-telas-listagem.css">
+    <link rel="stylesheet" href="../../estilos/estilo-sub-titulo.css">
+    <script src="../../js/menu-usuario.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h2>Edu Station</h2>
+            <h1><a href="../page-tela-inicial.html" class="voltar">Direção Workstation</a></h1>
+
+            <div class="menu-usuario" >
+                <div class="perfil" onclick="escondendoMenu()">
+                    <img src="../../estilos/imagens/icon-usuario.svg.svg">
+                </div>
+                <div class="lista-menu">
+                    <ul>
+                        <li><a href="#">Alterar</a></li>
+                        <li><a href="../../page-login.html">Exit</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container-sub-titulo">
+        <h2 class="sub-titulo">Aluno(a)</h2>
+        <a class="icon-add" href="criar-usuario-aluno.html">
+            <img src="../../estilos/imagens/icon-add.svg.svg">
+        </a>
+    </section>
+
+    <section class="container-pesquisar">
+        <p class="itens-container-pesquisar">Digite o nome</p>
+        <input class="itens-container-pesquisar" type="search">
+        <button class="itens-container-pesquisar butao">Pesquisar</button>
+    </section>
+
+    <section class="container-tabela">
+        <table class="tabela">
+            <tbody>
+                <tr class =" tabela-linha-01">
+                    <td>Nome</td>
+                    <td>Cpf</td>
+                    <td>Data de Nascimento</td>
+                    <td>Opções</td>
+                </tr>
+
+                <tr>
+                    <td class="tabela-coluna-01">Giacomo Guilizzoni</td>
+                    <td>123.456.789-00</td>
+                    <td>12/12/1982</td>
+                    <td><a href="#">Alterar</a><a href="#">Excluir</a></td>
+                </tr>
+
+                <tr>
+                    <td class="tabela-coluna-01">Marco Botton</td>
+                    <td>123.456.789-00</td>
+                    <td>12/12/1982</td>
+                    <td><a href="#">Alterar</a><a href="#">Excluir</a></td>
+                </tr>
+
+                <tr>
+                    <td class="tabela-coluna-01">Mariah Maclachlan</td>
+                    <td>123.456.789-00</td>
+                    <td>12/12/1982</td>
+                    <td><a href="#">Alterar</a><a href="#">Excluir</a></td>
+                </tr>
+
+                <tr>
+                    <td class="tabela-coluna-01">Valerie Liberty</td>
+                    <td>123.456.789-00</td>
+                    <td>12/12/1982</td>
+                    <td><a href="#">Alterar</a><a href="#">Excluir</a></td>
+                    
+                </tr>
+
+                <tr>
+                    <td class="tabela-coluna-01"><a href="#">Data Grid Docs</a></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+
+                <tr>
+                    <td class="tabela-coluna-01"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>

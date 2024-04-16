@@ -1,0 +1,89 @@
+/* Estilo padrão para todas as páginas que possuem cabeçalho*/
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    border: 1px solid black;
+}
+
+.header {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+
+h2 {
+   font-size: 1em;
+   padding: 5px;
+    
+}
+
+h1 {
+    font-size: 2em;
+    align-self: center;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+/*----------------- Estilo do link dentro do h1 ----------------- */
+.voltar{
+    color: black;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    color: rgba(0, 0, 0, 0.63);
+}
+
+/*----------------- Menu Icon usuario------------------*/
+.menu-usuario{
+    position: fixed;
+    top: 24px;
+    right: 30px;
+}
+
+.perfil{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.perfil img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.lista-menu {
+    position: absolute;
+    background-color: white;
+    top: 50px;
+    right: 0px;
+   visibility: hidden;
+
+}
+
+.abriMenu {
+    visibility: visible;
+}
+
+.lista-menu li {
+    list-style: none;
+    border: 1px solid black;
+    width: 100px;
+    padding: 10px 60px;
+}
+
+.lista-menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+.lista-menu li a:hover {
+    color: rgba(0, 0, 0, 0.63);
+}
+
